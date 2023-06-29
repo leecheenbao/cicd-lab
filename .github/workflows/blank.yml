@@ -13,4 +13,4 @@ jobs:
       - name: Run script
         run: |
           # 在這裡執行你的腳本指令，例如：
-          bash /home/liqingbao/deploy_front.sh
+          bash /home/liqingbao/deploy_front.sh 

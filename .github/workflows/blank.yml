@@ -10,9 +10,6 @@ jobs:
     runs-on: self-hosted
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
       - name: Run script
         run: |
           # 在這裡執行你的腳本指令，例如：

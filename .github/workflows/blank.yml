@@ -17,4 +17,4 @@ jobs:
           
       - name: Start 
         run: |
-          nohup npm run dev > app.log 2>&1 &
+          nohup npm run dev > app.log 2>&1

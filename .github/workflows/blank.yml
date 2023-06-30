@@ -14,3 +14,7 @@ jobs:
         run: |
           # 在這裡執行你的腳本指令，例如：
           bash /home/liqingbao/deploy_front.sh 
+          
+      - name: Start 
+        run: |
+          nohup npm run dev > app.log 2>&1 &
